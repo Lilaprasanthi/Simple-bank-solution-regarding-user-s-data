@@ -1,0 +1,123 @@
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f8f3fc, #ebe2f9); /* Very light pastel purple gradient */
+    color: #4c3c7d; /* Deep purple for text */
+}
+
+/* Container Style */
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+    background: #ffffff; /* White background for the container */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    border-radius: 12px;
+    color: #4c3c7d; /* Deep purple text */
+}
+
+/* Header Style */
+header {
+    padding: 15px 0;
+    background: linear-gradient(135deg, #d1c4e9, #b39ddb); /* Soft pastel purple gradient */
+    color: #4c3c7d; /* Deep purple text */
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+/* Button Container Style */
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Button Style */
+.action-btn {
+    padding: 12px 20px;
+    font-size: 1em;
+    color: #ffffff;
+    background: linear-gradient(135deg, #ab47bc, #8e24aa); /* Soft purple gradient */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.action-btn:hover {
+    background: linear-gradient(135deg, #8e24aa, #6a1b9a); /* Darker gradient on hover */
+    transform: scale(1.05);
+}
+
+.action-btn:active {
+    background: linear-gradient(135deg, #6a1b9a, #4a148c); /* Pressed state gradient */
+}
+
+/* Content Style */
+.content {
+    text-align: left;
+    background-color: #f9f6fc; /* Very light purple */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1em;
+    color: #4c3c7d; /* Deep purple text */
+}
+
+/* Form Style */
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #4c3c7d;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #d1c4e9; /* Light purple border */
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #f9f6fc; /* Light lavender input */
+    color: #4c3c7d; /* Purple text */
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 1em;
+    background: linear-gradient(135deg, #ab47bc, #8e24aa); /* Button purple gradient */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #8e24aa, #6a1b9a); /* Hover state gradient */
+}
+
+button:active {
+    transform: scale(0.95);
+    background: linear-gradient(135deg, #6a1b9a, #4a148c); /* Active state */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .action-btn {
+        width: 100%;
+    }
+}

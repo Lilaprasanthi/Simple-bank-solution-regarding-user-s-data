@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Bank Management System</h1>
+        </header>
+        <div class="button-container">
+            <button class="action-btn" onclick="showSection('createAccount')">Create Account</button>
+            <button class="action-btn" onclick="showSection('deposit')">Deposit Money</button>
+            <button class="action-btn" onclick="showSection('withdraw')">Withdraw Money</button>
+            <button class="action-btn" onclick="showSection('viewBalance')">View Balance</button>
+            <button class="action-btn" onclick="showSection('transfer')">Transfer Money</button>
+            <button class="action-btn" onclick="showSection('deleteAccount')">Delete Account</button>
+            <button class="action-btn" onclick="showSection('activeUsers')">Number of Active Users</button>
+        </div>
+        <div id="content" class="content">
+            <p>Select an action to perform from the menu above.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
